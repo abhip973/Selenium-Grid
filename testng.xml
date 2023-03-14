@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/abhishekp/Documents/Selenium Practise/gridPractise">
+        <classes>
+            <class name="org.example.EdgeTest">
+                <methods>
+                    <include name="edgeTest"/>
+                </methods>
+            </class>
+            <class name="org.example.GoogleTest">
+                <methods>
+                    <include name="launch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
